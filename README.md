@@ -1,5 +1,5 @@
-# tvt
-Triple-Knock-Out Viewing Tool (R Shiny)
+# TVT | Triple-Knock-Out Viewer
+A Triple-Knock-Out Viewing Tool (programmed with R Shiny)
 
 This application is used to process mass spectrometry data via database searching and then visualization of the result.
 
