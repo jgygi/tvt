@@ -521,10 +521,12 @@ server <- function(session, input, output) {
   #Reactive Data
   values <- reactiveValues()
   usernamein <- reactive({
-    return("single_standard_module")
+    # USERNAME REMOVED FOR SECURITY REASONS
+    return(NULL)
     })
   passwordin <- reactive({
-    return("LBtqkEkRXt34InnzPjK6s3uVkMmOXnZVhbdI4aJI7eo=")
+    # PASSWORD REMOVED FOR SECURITY REASONS
+    return(NULL)
     })
   totalpepdata <- reactive({
     idstring2 <- paste("protein_quant_peptide/",values$pqid,"?all_users=1", sep="")
